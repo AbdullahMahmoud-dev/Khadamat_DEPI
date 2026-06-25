@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://abdullahmahmoud-dev.github.io/Khadamat",
+  "homepage": "https://abdullahmahmoud-dev.github.io/Khadamat-DEPI",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
