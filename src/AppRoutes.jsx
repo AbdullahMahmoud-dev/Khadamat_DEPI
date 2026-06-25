@@ -75,7 +75,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: "/Khadamat",
+    basename: "/Khadamat_DEPI",
   }
 );
 
