@@ -11,67 +11,72 @@ import ProviderDashboard from "./pages/ProviderDashboard";
 import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <MainLayout />,
+      children: [
+        {
+          index: true,
+          element: <Home />,
+        },
+        {
+          path: "categories",
+          element: <Categories />,
+        },
+        {
+          path: "providers",
+          element: <SearchPage />,
+        },
+        {
+          path: "providers/:id",
+          element: <ProviderProfile />,
+        },
+        {
+          path: "job-posts",
+          element: <JobPostsPage />,
+        },
+        {
+          path: "login",
+          element: <LoginPage />,
+        },
+        {
+          path: "signup",
+          element: <SignupPage />,
+        },
+        {
+          path: "checkout",
+          element: <CheckoutPage />,
+        },
+      ],
+    },
+    {
+      path: "/dashboard",
+      element: <DashboardLayout />,
+      children: [
+        {
+          index: true,
+          element: <ProviderDashboard />,
+        },
+        {
+          path: "bookings",
+          element: <ProviderDashboard />,
+        },
+        {
+          path: "wallet",
+          element: <ProviderDashboard />,
+        },
+        {
+          path: "bids",
+          element: <ProviderDashboard />,
+        },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <MainLayout />,
-    children: [
-      {
-        index: true,
-        element: <Home />,
-      },
-      {
-        path: "categories",
-        element: <Categories />,
-      },
-      {
-        path: "providers",
-        element: <SearchPage />,
-      },
-      {
-        path: "providers/:id",
-        element: <ProviderProfile />,
-      },
-      {
-        path: "job-posts",
-        element: <JobPostsPage />,
-      },
-      {
-        path: "login",
-        element: <LoginPage />,
-      },
-      {
-        path: "signup",
-        element: <SignupPage />,
-      },
-      {
-        path: "checkout",
-        element: <CheckoutPage />,
-      },
-    ],
-  },
-  {
-    path: "/dashboard",
-    element: <DashboardLayout />,
-    children: [
-      {
-        index: true,
-        element: <ProviderDashboard />,
-      },
-      {
-        path: "bookings",
-        element: <ProviderDashboard />,
-      },
-      {
-        path: "wallet",
-        element: <ProviderDashboard />,
-      },
-      {
-        path: "bids",
-        element: <ProviderDashboard />,
-      },
-    ],
-  },
-]);
+    basename: "/Khadamat",
+  }
+);
 
 export default router;

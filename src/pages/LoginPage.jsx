@@ -10,7 +10,7 @@ const LoginPage = () => {
   const navigate = useNavigate();
 
   const handleSendOTP = () => {
-    if (phone.length >= 12) {
+    if (phone.length >= 10) {
       setOtpSent(true);
     }
   };
@@ -85,7 +85,8 @@ const LoginPage = () => {
                     type="tel"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
-                    placeholder="1XX XXX XXXX"
+                    placeholder="1XXXXXXXXX"
+                    maxLength={10}
                     className="w-full pl-14 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1E40AF] focus:border-transparent outline-none transition-all"
                   />
                 </div>
@@ -96,7 +97,7 @@ const LoginPage = () => {
 
               <button
                 onClick={handleSendOTP}
-                disabled={phone.length < 12}
+                disabled={phone.length < 10}
                 className="w-full bg-[#1E40AF] hover:bg-[#1E3A8A] text-white font-medium py-3 px-4 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 Send OTP

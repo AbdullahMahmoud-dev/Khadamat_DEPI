@@ -63,10 +63,10 @@ export const providers = [
     city: "Cairo",
     category: "Plumbing",
     hourly_rate: 150,
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    avatar: "https://ui-avatars.com/api/?name=Ahmed+Hassan&background=1E40AF&color=fff&size=150",
     portfolio_images: [
-      "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=400&h=300&fit=crop",
-      "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=400&h=300&fit=crop"
+      "https://placehold.co/400x300/1E40AF/fff?text=Plumbing+Work+1",
+      "https://placehold.co/400x300/1E40AF/fff?text=Plumbing+Work+2"
     ],
     whatsapp: "+201234567890",
     bio: "Professional plumber with 10+ years of experience in residential and commercial plumbing.",
@@ -80,10 +80,10 @@ export const providers = [
     city: "Giza",
     category: "Electricity",
     hourly_rate: 180,
-    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    avatar: "https://ui-avatars.com/api/?name=Mohamed+Ali&background=F97316&color=fff&size=150",
     portfolio_images: [
-      "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=400&h=300&fit=crop",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop"
+      "https://placehold.co/400x300/F97316/fff?text=Electrical+Work+1",
+      "https://placehold.co/400x300/F97316/fff?text=Electrical+Work+2"
     ],
     whatsapp: "+201098765432",
     bio: "Licensed electrician specializing in smart home installations and electrical repairs.",
@@ -97,10 +97,10 @@ export const providers = [
     city: "Alexandria",
     category: "AC Repair",
     hourly_rate: 200,
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
+    avatar: "https://ui-avatars.com/api/?name=Sara+Mahmoud&background=10B981&color=fff&size=150",
     portfolio_images: [
-      "https://images.unsplash.com/photo-1631553137195-7f13e4c7e75c?w=400&h=300&fit=crop",
-      "https://images.unsplash.com/photo-1581578731117-104f2a853a1d?w=400&h=300&fit=crop"
+      "https://placehold.co/400x300/10B981/fff?text=AC+Repair+1",
+      "https://placehold.co/400x300/10B981/fff?text=AC+Repair+2"
     ],
     whatsapp: "+201112345678",
     bio: "HVAC specialist with expertise in all major air conditioning brands.",
@@ -114,10 +114,10 @@ export const providers = [
     city: "Mansoura",
     category: "Carpentry",
     hourly_rate: 160,
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+    avatar: "https://ui-avatars.com/api/?name=Omar+Khaled&background=8B5CF6&color=fff&size=150",
     portfolio_images: [
-      "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
-      "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&h=300&fit=crop"
+      "https://placehold.co/400x300/8B5CF6/fff?text=Carpentry+Work+1",
+      "https://placehold.co/400x300/8B5CF6/fff?text=Carpentry+Work+2"
     ],
     whatsapp: "+201556789012",
     bio: "Expert carpenter specializing in custom furniture and home renovations.",
@@ -131,10 +131,10 @@ export const providers = [
     city: "Tanta",
     category: "Painting",
     hourly_rate: 140,
-    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    avatar: "https://ui-avatars.com/api/?name=Fatima+Ahmed&background=EC4899&color=fff&size=150",
     portfolio_images: [
-      "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=400&h=300&fit=crop",
-      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=400&h=300&fit=crop"
+      "https://placehold.co/400x300/EC4899/fff?text=Painting+Work+1",
+      "https://placehold.co/400x300/EC4899/fff?text=Painting+Work+2"
     ],
     whatsapp: "+201998765432",
     bio: "Professional painter with attention to detail and color expertise.",
@@ -148,10 +148,10 @@ export const providers = [
     city: "Cairo",
     category: "Plumbing",
     hourly_rate: 145,
-    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
+    avatar: "https://ui-avatars.com/api/?name=Karim+Sayed&background=1E40AF&color=fff&size=150",
     portfolio_images: [
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400&h=300&fit=crop",
-      "https://images.unsplash.com/photo-1604179144553-7b8b77c7faa8?w=400&h=300&fit=crop"
+      "https://placehold.co/400x300/1E40AF/fff?text=Plumbing+Work+3",
+      "https://placehold.co/400x300/1E40AF/fff?text=Plumbing+Work+4"
     ],
     whatsapp: "+201223344556",
     bio: "Reliable plumber for emergency repairs and routine maintenance.",
@@ -165,10 +165,10 @@ export const providers = [
     city: "Giza",
     category: "Electricity",
     hourly_rate: 175,
-    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
+    avatar: "https://ui-avatars.com/api/?name=Laila+Mohamed&background=F97316&color=fff&size=150",
     portfolio_images: [
-      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=400&h=300&fit=crop",
-      "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=400&h=300&fit=crop"
+      "https://placehold.co/400x300/F97316/fff?text=Electrical+Work+3",
+      "https://placehold.co/400x300/F97316/fff?text=Electrical+Work+4"
     ],
     whatsapp: "+201334455667",
     bio: "Electrical engineer with experience in industrial and residential projects.",
@@ -182,10 +182,10 @@ export const providers = [
     city: "Alexandria",
     category: "Carpentry",
     hourly_rate: 155,
-    avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face",
+    avatar: "https://ui-avatars.com/api/?name=Hassan+Ibrahim&background=8B5CF6&color=fff&size=150",
     portfolio_images: [
-      "https://images.unsplash.com/photo-1595846519845-68e298c2edd8?w=400&h=300&fit=crop",
-      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=400&h=300&fit=crop"
+      "https://placehold.co/400x300/8B5CF6/fff?text=Carpentry+Work+3",
+      "https://placehold.co/400x300/8B5CF6/fff?text=Carpentry+Work+4"
     ],
     whatsapp: "+201445566778",
     bio: "Skilled carpenter focused on quality craftsmanship and customer satisfaction.",
