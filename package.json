@@ -5,12 +5,12 @@
   "type": "module",
   "homepage": "https://abdullahmahmoud-dev.github.io/Khadamat",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.1",
     "react": "^19.2.6",
